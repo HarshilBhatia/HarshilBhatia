@@ -27,15 +27,16 @@ export const About = () => {
         </Row>
         <Row className="sec_sp">
           <Col lg="5">
-            <h3 className="color_sec py-4">{dataabout.title}</h3>
+            <h3 className="color_sec py-4">About myself</h3>
           </Col>
           <Col lg="7" className="d-flex align-items-center">
             <div>
-              <p>{dataabout.aboutme}</p>
+              <p>I am a computer vision researcher at Avataar.ai working with some amazing people. I recently completed my undergrad in Computer Science and Engineering from Indian Institute of Technology, Jodhpur where I had the priviledge of being supervised by Prof. Richa Singh and Prof. Mayank Vatsa. During my studies, I had the most incredible time interning for a year and a half at the Max Planck Institute for Informatics. I was part of the super cool 4D Vision group, led by the Dr. Vladislav Golyanik. In 2020, I spent a summer in Budapest collaborating with Dr. Tamas Kiss and Dr. Orsolya Kalman, exploring the fascinating field of quantum information!</p>
             </div>
           </Col>
         </Row>
-        <Row className=" sec_sp">
+
+        {/* <Row className=" sec_sp">
           <Col lg="5">
             <h3 className="color_sec py-4">Work Timline</h3>
           </Col>
@@ -54,8 +55,9 @@ export const About = () => {
               </tbody>
             </table>
           </Col>
-        </Row>
-        <Row className="sec_sp">
+        </Row> */}
+
+        {/* <Row className="sec_sp">
           <Col lg="5">
             <h3 className="color_sec py-4">Skills</h3>
           </Col>
@@ -77,11 +79,11 @@ export const About = () => {
                 </div>
               );
             })}
-          </Col>
-        </Row>
-        <Row className="sec_sp">
+          </Col> */}
+        {/* </Row> */}
+        {/* <Row className="sec_sp">
           <Col lang="5">
-            <h3 className="color_sec py-4">services</h3>
+            <h3 className="color_sec py-4">Research Work</h3>
           </Col>
           <Col lg="7">
             {services.map((data, i) => {
@@ -93,7 +95,7 @@ export const About = () => {
               );
             })}
           </Col>
-        </Row>
+        </Row> */}
       </Container>
     </HelmetProvider>
   );

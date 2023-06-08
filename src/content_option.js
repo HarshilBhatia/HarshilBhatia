@@ -1,18 +1,18 @@
-const logotext = "JOHN";
+const logotext = "Harshil Bhatia";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Harshil Bhatia",
+    description: "I'm an undergrad interested in solving 3D vision problems. Specifically, I'm interested in 3D reconstruction and neural rendering.",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "Hey, I’m Harshil Bhatia",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "A 3D vision researcher",
+        second: "Currently at Avataar.ai",
+        // third: ",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "I'm an undergrad interested in solving 3D vision problems. Specifically, I'm interested in 3D reconstruction and neural rendering.",
+    // your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
 const dataabout = {
@@ -136,21 +136,21 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
+    YOUR_EMAIL: "harshilbhatia@gmail.com",
     YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    // description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    // YOUR_SERVICE_ID: "service_id",
+    // YOUR_TEMPLATE_ID: "template_id",
+    // YOUR_USER_ID: "user_id",
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/HarshilBhatia",
+    facebook: "https://scholar.google.com/citations?user=8rU1AaQAAAAJ&hl=en",
+    linkedin: "https://www.linkedin.com/in/harshil-bhatia/",
+    // twitter: "https://twitter.com",
 };
 export {
     meta,
