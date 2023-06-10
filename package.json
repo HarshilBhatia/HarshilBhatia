@@ -1,7 +1,7 @@
 {
     "name": "hbportfolio",
     "version": "0.1.0",
-    "homepage": "https://harshilbhatia.github.io",
+    "homepage": "https://harshilbhatia.github.io/harshilbhatia.github.io",
     "private": true,
     "dependencies": {
         "bootstrap": "^5.2.3",
